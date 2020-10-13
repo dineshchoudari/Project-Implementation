@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6154" started-at="2020-07-05T12:15:55Z" finished-at="2020-07-05T12:16:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6154" started-at="2020-07-05T12:15:55Z" finished-at="2020-07-05T12:16:01Z">
+      <class name="testcases.TC001">
+        <test-method status="PASS" signature="launchIrctc()[pri:0, instance:testcases.TC001@d3bd8b]" name="launchIrctc" is-config="true" duration-ms="4910" started-at="2020-07-05T13:15:57Z" finished-at="2020-07-05T13:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchIrctc -->
+        <test-method status="FAIL" signature="irctcRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001@d3bd8b]" name="irctcRegistration" duration-ms="5" started-at="2020-07-05T13:16:01Z" data-provider="TC001fetchData" finished-at="2020-07-05T13:16:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dinesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[avulapati123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[avulapati123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kutty ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dinesh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Avulapati]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[16-11-1985]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[dineshchoudari@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[7799395928]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[94]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[25-1-1245]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[NETHAJI NAGAR]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[524004]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Andhra pradesh]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[02083144944]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[25-1-1245]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[NETHAJI NAGAR]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[524004]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Andhra pradesh]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Andhrakesari Nagar S.O]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[7799395928]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at wrappers.GenewirWrappers.clickByXpath(GenewirWrappers.java:281)
+	at testcases.TC001.irctcRegistration(TC001.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irctcRegistration -->
+        <test-method status="FAIL" signature="closeIrct()[pri:0, instance:testcases.TC001@d3bd8b]" name="closeIrct" is-config="true" duration-ms="0" started-at="2020-07-05T13:16:01Z" finished-at="2020-07-05T13:16:01Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at wrappers.GenewirWrappers.closeAllBrowsers(GenewirWrappers.java:718)
+	at wrappers.ProjectWrappers.closeIrct(ProjectWrappers.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIrct -->
+        <test-method status="SKIP" signature="launchIrctc()[pri:0, instance:testcases.TC001@d3bd8b]" name="launchIrctc" is-config="true" duration-ms="0" started-at="2020-07-05T13:16:01Z" finished-at="2020-07-05T13:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchIrctc -->
+        <test-method status="SKIP" signature="irctcRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001@d3bd8b]" name="irctcRegistration" duration-ms="1" started-at="2020-07-05T13:16:01Z" data-provider="TC001fetchData" finished-at="2020-07-05T13:16:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sravanthi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sravanthi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sravanthi123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kutty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sravanthi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sravani]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kadiyala]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[04-08-1988]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[sravanthichowdary08@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[7799395928]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[94]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[25-1-1245]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[NETHAJI NAGAR]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[524004]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Andhra pradesh]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[02083144944]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[25-1-1245]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[NETHAJI NAGAR]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[524004]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Andhra pradesh]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Andhrakesari Nagar S.O]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[7799395928]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irctcRegistration -->
+        <test-method status="SKIP" signature="closeIrct()[pri:0, instance:testcases.TC001@d3bd8b]" name="closeIrct" is-config="true" duration-ms="0" started-at="2020-07-05T13:16:01Z" finished-at="2020-07-05T13:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIrct -->
+        <test-method status="SKIP" signature="launchIrctc()[pri:0, instance:testcases.TC001@d3bd8b]" name="launchIrctc" is-config="true" duration-ms="0" started-at="2020-07-05T13:16:01Z" finished-at="2020-07-05T13:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchIrctc -->
+        <test-method status="SKIP" signature="irctcRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001@d3bd8b]" name="irctcRegistration" duration-ms="0" started-at="2020-07-05T13:16:01Z" data-provider="TC001fetchData" finished-at="2020-07-05T13:16:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kethan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kethan123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sravanthi123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kutty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kethan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Avulapati]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[26-12-2015]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[kethan@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[7799395928]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[94]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[25-1-1245]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[NETHAJI NAGAR]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[524004]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Andhra pradesh]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[02083144944]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[25-1-1245]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[NETHAJI NAGAR]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Nellore]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[524004]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Andhra pradesh]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Andhrakesari Nagar S.O]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[7799398552]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irctcRegistration -->
+        <test-method status="SKIP" signature="closeIrct()[pri:0, instance:testcases.TC001@d3bd8b]" name="closeIrct" is-config="true" duration-ms="0" started-at="2020-07-05T13:16:01Z" finished-at="2020-07-05T13:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIrct -->
+      </class> <!-- testcases.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.TC002">
+        <methods>
+          <include name="launchIrctc"/>
+        </methods>
+      </class> <!-- testcases.TC002 -->
+      <class name="testcases.TC005">
+        <methods>
+          <include name="AccommodationsGSTValidation"/>
+        </methods>
+      </class> <!-- testcases.TC005 -->
+      <class name="testcases.TC001">
+        <methods>
+          <include name="closeIrct"/>
+          <include name="launchIrctc"/>
+        </methods>
+      </class> <!-- testcases.TC001 -->
+      <class name="testcases.TC004">
+        <methods>
+          <include name="SaloonMandatoryCheck"/>
+        </methods>
+      </class> <!-- testcases.TC004 -->
+      <class name="testcases.TC008">
+        <methods>
+          <include name="BookHotels2"/>
+        </methods>
+      </class> <!-- testcases.TC008 -->
+      <class name="testcases.TC007">
+        <methods>
+          <include name="BookHotels"/>
+        </methods>
+      </class> <!-- testcases.TC007 -->
+      <class name="testcases.TC006">
+        <methods>
+          <include name="BookHotels"/>
+        </methods>
+      </class> <!-- testcases.TC006 -->
+      <class name="testcases.TC003">
+        <methods>
+          <include name="closeIrct"/>
+          <include name="NationalVotersServicesPortal"/>
+          <include name="launchIrctc"/>
+        </methods>
+      </class> <!-- testcases.TC003 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
